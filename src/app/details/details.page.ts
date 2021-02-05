@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MoviedbService } from '../core/moviedb.service';
-import { IMovie } from '../share/interfaces';
+import { IMovie } from '../shared/interfaces';
 import { ToastController } from '@ionic/angular';
 
 @Component({

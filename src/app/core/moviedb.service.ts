@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IMovie } from '../share/interfaces';
+import { IMovie } from '../shared/interfaces';
 import { Storage } from '@ionic/storage';
 @Injectable({
   providedIn: 'root'
@@ -44,11 +44,6 @@ export class MoviedbService {
           (data: IMovie) => this.auxMovieList.push(data)
         );
       });
-
-      // Interfaces web
-
-      // 3
-
       return this.auxMovieList;
     });
   }

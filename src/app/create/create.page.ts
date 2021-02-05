@@ -3,7 +3,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 import { MoviedbService } from '../core/moviedb.service';
 import { Router } from '@angular/router';
 import { ToastController } from '@ionic/angular';
-import { IMovie } from '../share/interfaces';
+import { IMovie } from '../shared/interfaces';
 
 @Component({
   selector: 'app-create',
